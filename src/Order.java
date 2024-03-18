@@ -8,4 +8,8 @@ public class Order {
         this.products = products;
         deliveryMethod = delivery;
     }
+    public void deliver(){
+        deliveryMethod.deliver();
+    }
+
 }
